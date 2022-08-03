@@ -24,4 +24,29 @@ export const Task = [
         done : true
     },
 ]
-export const Contact = []
+export const Contact = [
+    {
+        _id: "asd12",
+        name: "zemira",
+        phone: "0525348765",
+        mail: "anazak121@gmail.com",
+        role: "player",
+        officalID: "315989875"
+    },
+    {
+        _id: "ds21a",
+        name: "manor solomon",
+        phone: "0525348325",
+        mail: "manor@gmail.com",
+        role: "player",
+        officalID: "3144989875"
+    },
+    {
+        _id: "ds32a",
+        name: "barak bachar",
+        phone: "0525342343",
+        mail: "barak@gmail.com",
+        role: "coach",
+        officalID: "125487369"
+    }
+]

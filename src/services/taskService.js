@@ -1,4 +1,4 @@
-import { storageService } from "./storageService"
+import { storageService } from "./generalService/storageService"
 export const taskService = {
     query,
     add,

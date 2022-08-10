@@ -1,3 +1,9 @@
+export const AppInfo = {
+    name: "DocTask",
+    user: "Harel Hazan",
+    mail: "hazandev@gmail.com"
+
+}
 export const Task = [
     {
         _id : "t0001",

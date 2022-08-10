@@ -1,10 +1,20 @@
-.app{
+.App{
     -webkit-text-size-adjust: 100%;
-    direction: rtl;  
+    direction: ltr;  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    header{
+        height: 7vh;
+        background: $clr1;
+    }
     main{  
-        min-height: 93vh;
         padding: 0;
+        min-height: 86vh;
+    }
+    footer{
+        height: 7vh;
+        padding: 0;
+        background: $clr1;
     }
 }
 

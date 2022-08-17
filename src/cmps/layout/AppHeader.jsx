@@ -1,4 +1,5 @@
-import React from 'react';
+
+import { useState , useEffect } from 'react';
 import { Logo } from '../Logo';
 import { DateNow } from '../DateNow';
 import { Navbar } from '../Navbar';
@@ -9,7 +10,7 @@ export const AppHeader = () => {
 				<Logo />
 			</div>
 			<div className="center">
-				<Navbar />
+				<Navbar/>
 			</div>
 			<div className="right">
 				<DateNow />
